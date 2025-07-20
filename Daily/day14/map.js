@@ -1,9 +1,9 @@
 // map and set
 
 let map = new Map();
-map.set("name","karan");
-map.set("age", 20);
-map.set("phone",865678);
+map.set("name","Raj");
+map.set("age", 23);
+map.set("phone",6579963965);
 console.log(map);
 
 console.log(map.has("name"));
