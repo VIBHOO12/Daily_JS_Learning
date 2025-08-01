@@ -1,4 +1,4 @@
-
+// 2723. Add Two Promises - LeetCode
 var addTwoPromises = async function(promise1, promise2) {
     return new Promise(async (resolve) => {
         const [p1, p2] = await Promise.all([promise1, promise2]);
